@@ -1,0 +1,22 @@
+{
+  "name": "masterz-exam-marco-insabato",
+  "version": "1.0.0",
+  "description": "Create a native token on solana",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node ./app/keygen.ts",
+    "airdrop": "ts-node ./app/airdrop.ts",
+    "createMint": "ts-node ./app/spl_init.ts",
+    "mintToken": "ts-node ./app/spl_mint.ts",
+    "transferToken": "ts-node ./app/spl_transfer.ts"
+  },
+  "author": "Marco Insabato",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.92.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
